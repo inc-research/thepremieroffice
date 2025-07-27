@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "climate_variability_report",
+    "params": {
+        "id": {
+            "region": "Marlborough Region",
+            "country": "New Zealand",
+            "report_date": "20250726"
+        },
+        "Climate Variability from Previous Month": {
+            "difference_indicator": "increase",
+            "month_to_month_difference": 0.09
+        },
+        "Primary Driver": "QV2M",
+        "Primary Driver Percentage of Variability": "11.33"
+    },
+    "id": 1
+}

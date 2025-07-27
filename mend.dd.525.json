@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "climate_variability_report",
+    "params": {
+        "id": {
+            "region": "Mendoza Region",
+            "country": "Argentina",
+            "report_date": "20250726"
+        },
+        "Climate Variability from Previous Month": {
+            "difference_indicator": "increase",
+            "month_to_month_difference": 4.2
+        },
+        "Primary Driver": "ALLSKY_SFC_LW_DWN",
+        "Primary Driver Percentage of Variability": "10.96"
+    },
+    "id": 1
+}

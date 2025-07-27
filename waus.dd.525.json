@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "climate_variability_report",
+    "params": {
+        "id": {
+            "region": "Western Australia Region",
+            "country": "Australia",
+            "report_date": "20250726"
+        },
+        "Climate Variability from Previous Month": {
+            "difference_indicator": "increase",
+            "month_to_month_difference": 0.78
+        },
+        "Primary Driver": "ALLSKY_SFC_LW_DWN",
+        "Primary Driver Percentage of Variability": "11.27"
+    },
+    "id": 1
+}
