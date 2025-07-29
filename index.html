@@ -11,7 +11,7 @@
         body {
             background-color: #FFFFF0; /* Ivory */
             color: black;
-            font-family: 'Chivo Mono', monospace;
+            font-family: 'Newsreader', monospace;
             margin: 0;
             padding: 0;
         }
@@ -38,23 +38,18 @@
             width: 100%;
             position: relative;
         }
-        .logo {
-            color: #FFFFF0; /* Ivory */
-            font-size: 34px;
-            position: absolute;
-            right: 25px;
-            top: 7px; /* 7px buffer from top */
-        }
         .content-feed-container {
             display: flex;
             justify-content: center;
             padding-top: 300px;
         }
         .content-feed {
-            width: 600px;
+            width: 400px;
             height: 200px;
             overflow-y: scroll;
             font-size: 14pt;
+            border: 3px solid black; /* Added border */
+            padding: 10px; /* Added padding for better spacing */
         }
         .post {
             border-bottom: 3px solid black;
@@ -75,6 +70,12 @@
             margin: 0 15px;
             font-size: 14pt;
         }
+        .footer-logo {
+            text-align: center;
+            margin-top: 80px; /* Moved 80px below feed */
+            font-size: 34px;   /* Kept original logo size */
+            color: black;      /* Set color to black */
+        }
     </style>
 </head>
 <body>
@@ -88,9 +89,7 @@
         <p class="byline">Ian Carleton, Publisher</p>
     </div>
 
-    <div class="divider">
-        <div class="logo">▲🌐▼</div>
-    </div>
+    <div class="divider"></div>
 
     <nav>
         <a href="index.html">Home</a>
@@ -104,32 +103,34 @@
                 Mendoza Region, Argentina - July 26, 2025<br>
                 <br>
                 Analysis for 2025-05:<br>
-                Climate Variability: ▲4.20% Vs. Previous Month<br>
+                Atmospheric Disorder Index: ▲4.20% Vs. Previous Month<br>
                 Primary Driver: ALLSKY_SFC_LW_DWN (10.96% Share)<br>
-                Notes: None At This Time. Report Is Self-Explanatory.<br>
+                Notes: ADI increase = Vaiable Weather<br>
                 <br>
             </div>
             <div class="post">
                 Marlborough Region, New Zealand - July 26, 2025<br>
                 <br>
                 Analysis for 2025-05:<br>
-                Climate Variability: ▲0.09% Vs. Previous Month<br>
+                Atmospheric Disorder Index: ▲0.09% Vs. Previous Month<br>
                 Primary Driver: QV2M (11.33% Share)<br>
-                Notes: None At This Time. Report Is Self-Explanatory.<br>
+                Notes: ADI increase = Vaiable Weather<br>
                 <br>
             </div>
              <div class="post">
                 Western Australia Region, Australia - July 26, 2025<br>
                 <br>
                 Analysis for 2025-05:<br>
-                Climate Variability: ▲0.78% Vs. Previous Month<br>
+                Atmospheric Disorder Index: ▲0.78% Vs. Previous Month<br>
                 Primary Driver: ALLSKY_SFC_LW_DWN (11.27% Share)<br>
-                Notes: None At This Time. Report Is Self-Explanatory.)<br>
+                Notes: ADI increase = Vaiable Weather<br>
                 <br>
             </div>
         </div>
     </div>
 
+    <div class="logo">▲🌐▼</div>
+    
     <script src="mcp_rpc_search.js"></script>
 </body>
 </html>
